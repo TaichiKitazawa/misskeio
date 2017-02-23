@@ -1,0 +1,222 @@
+@media screen and (min-width: 800px) and (max-width: 1400px){
+
+    .slider {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 72px;
+    overflow: hidden;
+}
+
+.slider > a{
+    height: 700px;
+    position: relative;
+}
+
+.top_caption{
+    color: #FFF;
+    width: 10%;
+    height: 140px;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.top_caption > h1{
+    font-size: 25px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-family: "Roboto Slab" , Garamond , "Times New Roman" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
+}
+
+.top_caption > h2{
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: "Roboto Slab" , Garamond , "Times New Roman" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
+}
+
+.contents{
+    width: 90%;
+    height: auto;
+    display: block;
+    overflow: hidden;
+    margin: 30px auto;
+}
+
+.content{
+    width: 29%;
+    height: auto;
+    margin: 10px 2%;
+    position: relative;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.content > img{
+    height: auto;
+    overflow: hidden;
+}
+
+.caption{
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #FFF;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+.caption > h2{
+    font-size: 30px;
+    margin: 4% auto;
+}
+
+.caption > h3{
+    font-size: 20px;
+    margin: 3% auto;
+}
+
+.staff-blog{
+    width: 85%;
+}
+
+
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 799px){
+
+html, body{
+	background-color: #fff;
+	width: 100%;
+	height: 100%;
+	}
+
+
+#menuWrapper{
+    width: 100%;
+    height: 80%;
+    top: 10%;
+    left: 0%;
+    margin-left: 0px;
+}
+
+.slider {
+ 	position: relative;
+  	width: 100%;
+  	height: auto;
+  	margin-top: 72px;
+  	overflow: hidden;
+}
+
+.slider > a{
+	height: 400px;
+    position: relative;
+}
+
+.top_caption{
+    color: #FFF;
+    width: 10%;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.top_caption > h1{
+	font-size: 15px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-family: "Roboto Slab" , Garamond , "Times New Roman" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
+}
+
+.top_caption > h2{
+	font-size: 10px;
+    margin-left: 20px;
+    font-family: "Roboto Slab" , Garamond , "Times New Roman" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
+}
+
+.contents{
+    width: 90%;
+    height: auto;
+    display: block;
+    overflow: hidden;
+    margin: 30px auto;
+}
+
+
+.content{
+	width: 46%;
+	height: auto;
+	margin: 10px 2%;
+	position: relative;
+	float: left;
+    display: block;
+    overflow: hidden;
+}
+
+.content img{
+	width:auto;
+    height:auto;
+    max-width:100%;
+    max-height:100%;
+    vertical-align: middle;
+    text-align: center;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    filter: grayscale(100%);
+
+}
+
+.content:hover img{
+	 -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+.caption{
+	position: absolute;
+	width: 100%;
+	height: 120px;
+	bottom: 0px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #FFF;
+	margin: 0 auto;
+    vertical-align: middle;
+}
+
+.caption > h2{
+    font-size: 20px;
+}
+
+.caption > h3{
+    font-size: 15px;
+}
+
+.staff-blog{
+    width: 90%;
+}
+
+.footer{
+	width: 100%;
+	height: 70px;
+	background-color: #84b7bf;
+	color: white;
+    margin-top: 30px;
+}
+
+.footer p{
+    margin-top: 30px;
+	margin-left: 20px;
+}
+
+
+}

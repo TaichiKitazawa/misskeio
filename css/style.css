@@ -1,0 +1,303 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display: block;
+}
+
+@font-face {
+  font-family: 'LetterGothicStd';
+  src: url(../fonts/LetterGothicStd.otf) format('opentype');
+}
+
+html, body{
+	background-color: #fff;
+	width: 100%;
+	height: 100%;
+    -webkit-text-size-adjust: 100%;
+	}
+
+
+#allWrapper{
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+
+#menuRectWrapper{
+    z-index: 111;
+    right: 0px;
+    top: 0px;
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+#menuRectWrapper > img{
+    position: absolute;
+    left:8px;
+}
+
+#menuRectWrapper > #menuRectBar1{
+    top:48px;
+}
+
+#menuRectWrapper > #menuRectBar2{
+    top:34px;
+}
+
+#menuRectWrapper > #menuRectBar3{
+    top:20px;
+}
+
+#menuOverRay{
+    display: none;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(220,220,220,0.6);
+}
+
+#menuWrapper{
+    z-index: 110;
+    position: fixed;
+    height: 100%;
+    width: 600px;
+    top: 0px;
+    left: 50%;
+    margin-left: -300px;
+}
+
+#menuWrapper > ls > li{
+    display: block;
+    width: 18%;
+    min-width: 90px;
+    /*height: 72px;*/
+    list-style: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    background-color: #82B7BF;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -9%;
+    margin-top: -36px;
+    opacity: 0.0;
+    z-index: 111;
+}
+
+#menuWrapper > ls > .haveChild{
+    z-index: 112;
+}
+
+/*
+#menuWrapper > ls > li:nth-child(1){
+    
+}
+*/
+
+
+#menuWrapper > ls > li > a{
+    display: block;
+    width: 100%;
+    height: 80%;
+    margin: 0;
+    padding-top: 39%;
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'MODERNE-SANS.ttf', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", "Yu Gothic", "メイリオ", Meiryo, Osaka, sans-serif;
+    font-size: 1.2rem;
+}
+/*
+#menuWrapper > ls > .childMenu{
+    display: none;
+}
+
+#menuWrapper > ls > .childMenu > li{
+    display: block;
+    width: 100%;
+    height: 48px;
+    list-style: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+}
+
+#menuWrapper > ls > .childMenu > li > a{
+    display: block;
+    width: 100%;
+    height: 80%;
+    margin: 0;
+    padding-top: 12px;
+    text-decoration: none;
+    color: #000;
+}
+*/
+header{
+    position: fixed;
+    width: 100%;
+    height: 72px;
+    background-color: #82B7BF;
+    z-index: 101;
+    top:0px;
+}
+
+header a #headerLogo{
+    width:80px;
+    margin-left: 8px;
+    margin-top: 6px;
+}
+
+header a{
+    display: block;
+    width:98px;
+    position: absolute;
+    left: 8px;
+    top: 2px;
+}
+
+header #headerMissKeio{
+    font-family: 'LetterGothicStd',"Avenir Next", Verdana, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", "Yu Gothic", "メイリオ", Meiryo, Osaka, sans-serif;
+    color: #FFF;
+    font-size: 20px;
+    position: absolute;
+    left: 140px;
+    top: 26px;
+}
+
+#headerMissKeio > a{
+    width: 300px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.slider{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 72px;
+}
+
+.slider > a{
+    height: 100%;
+    position: relative;
+    display: block;
+}
+
+.slider > a > img{
+    display: block;
+}
+
+
+.top_caption{
+    color: #FFF;
+    width: 10%;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.top_caption > h1{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-family: "Roboto Slab" , Garamond , "Times New Roman" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
+}
+
+.top_caption > h2{
+    margin-left: 20px;
+    font-family: "Roboto Slab" , Garamond , "Times New Roman" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
+}
+
+
+.contents{
+	width: 1100px;
+	height: 1000px;
+	margin: 30px auto;
+}
+
+.content{
+	width: 300px;
+	height: 450px;
+	margin-left: 50px;
+	margin-top: 20px;
+	position: relative;
+	float: left;
+    overflow: hidden;
+}
+
+.content img{
+	width:auto;
+    height:auto;
+    max-width:100%;
+    max-height:100%;
+    display: block;
+    overflow: hidden;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: transform 0.5s linear;
+}
+
+.content:hover img{
+	 -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+.caption{
+	position: absolute;
+	width: 300px;
+	height: 150px;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #FFF;
+	text-align: center;
+}
+
+.caption > h2{
+    margin-top: 10%;
+    margin-bottom: 7%;
+    font-family: "Roboto Slab" , Garamond , "Times New Roman" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;
+    letter-spacing: 4px;
+}
+
+.caption > h3{
+    font-family: "Roboto Slab" , Garamond , "Times New Roman" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;;
+}
+
+.staff-blog{
+    width: 1000px;
+    height: 400px;
+    margin-top: 30px;
+    margin: auto;
+}
+
+.staff-blog > img{
+    width: 100%;
+}
+
+.footer{
+	width: 100%;
+	height: 70px;
+	background-color: #84b7bf;
+	color: white;
+    margin-top: 30px;
+}
+
+.footer p{
+    font-family: 'LetterGothicStd',"Avenir Next", Verdana, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", "Yu Gothic", "メイリオ", Meiryo, Osaka, sans-serif;
+	margin-left: 20px;
+    font-size: 20px;
+}
